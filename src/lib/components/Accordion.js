@@ -5,7 +5,6 @@ export default function Accordion(props) {
   const [show, setShow] = useState(false);
   const handleClick = () => {
   setShow(prev => !prev);
- 
 }
 const style = {
   display:"flex",
