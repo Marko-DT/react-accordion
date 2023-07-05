@@ -18,10 +18,7 @@ const Accordion = (_obj) => {
         details_wrapper_class: show?"detailsWrapper":"detailsWrapper collapsed",
         details_text: _obj.details_text || "Lorem ipsom"
     }
-    console.log(obj);
-
     return (
-
         <div className={obj.accordion_wrapper_class}>
             <div  className={obj.title_wrapper_class} onClick={handleClick}><p>{obj.title_text_text}</p>{obj.title_btn}</div>
             { <div className={obj.details_wrapper_class}>{obj.details_text}</div> }
